@@ -124,5 +124,7 @@ class BinaryTree {
          * Pointer to the root node of this binary tree
          */
         Node* root;
+
+        void traverse(Node* curr, unordered_map<int,int>* bF);
 };
 #endif
