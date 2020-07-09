@@ -1,0 +1,9 @@
+{
+    "name": "C++",
+    "extensions": [
+        "ms-vscode.cpptools",
+        "eamodio.gitlens",
+        "twxs.cmake"
+    ],
+    "image": "sandervalstar/devcontainer:centos_cpp_v3"
+}
