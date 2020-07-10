@@ -125,6 +125,6 @@ class BinaryTree {
          */
         Node* root;
 
-        void traverse(Node* curr, unordered_map<int,int>* bF);
+        void traverse(Node* curr, unordered_map<int,int>* bF, int, int);
 };
 #endif
