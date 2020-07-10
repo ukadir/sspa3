@@ -8,3 +8,6 @@ target_include_directories(BinaryTreeTest PRIVATE .)
 
 # TODO: make CMake aware that BinaryTreeTest is a test so that CTest will detect it.
 # Register the test with CMake under the name 'test_BinaryTreeTest'
+add_test(NAME test_BinaryTreeTest
+         COMMAND make -C build test 
+                            --exe $<TARGET_FILE:BinaryTreeTest>)

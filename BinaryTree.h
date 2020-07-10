@@ -62,6 +62,7 @@ class BinaryTree {
                     }
                     cerr << ')' << this->label;
                 }
+                int traverse(unordered_map<int,int>* bF);
         };
 
         /**
@@ -125,6 +126,5 @@ class BinaryTree {
          */
         Node* root;
 
-        void traverse(Node* curr, unordered_map<int,int>* bF, int, int);
 };
 #endif
